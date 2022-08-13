@@ -1,15 +1,20 @@
 {
   "name": "@exortions/logger",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "An advanced, completely configurable Logger for JS & TS.",
   "type": "module",
   "scripts": {
     "prepublish": "tsc",
     "start": "tsc && node .",
-    "test": "tsc && node dist/test/logger.test.js"
+    "test": "tsc && node dist/test/logger.test.js",
+    "pub": "yarn publish --access=public"
   },
   "main": "dist/logger.js",
   "author": "Exortions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exortions/logger.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.7.2",
