@@ -1,0 +1,5 @@
+Sat, 13 Aug 2022 02:50:19 GMT - [1m[36m[Logger] This is a debug message[39m[22m
+Sat, 13 Aug 2022 02:50:19 GMT - [1m[34m[Logger] This is an info message[39m[22m
+Sat, 13 Aug 2022 02:50:19 GMT - [1m[33m[Logger] This is a warn message[39m[22m
+Sat, 13 Aug 2022 02:50:19 GMT - [1m[31m[Logger] This is an error message [39m[22m
+Sat, 13 Aug 2022 02:50:19 GMT - [1m[31m[Logger] This is an error message with an error Error: This is an error[39m[22m
