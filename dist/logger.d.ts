@@ -24,6 +24,8 @@ declare class LoggerFactory {
     constructor();
     getLogger(name: string): LoggerClass | undefined;
     createLogger(name: string, format: Format, write: LogWriteSettings, callerReplacements: CallerReplacements, requirements: LogRequirements): LoggerClass;
+    deleteLogger(name: string): void;
+    getLoggers(): Map<string, LoggerClass>;
 }
 declare class LoggerClass {
     private readonly callerReplacements;

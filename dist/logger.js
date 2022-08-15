@@ -23,6 +23,12 @@ class LoggerFactory {
         this.loggers.set(name, logger);
         return logger;
     }
+    deleteLogger(name) {
+        this.loggers.delete(name);
+    }
+    getLoggers() {
+        return this.loggers;
+    }
 }
 class LoggerClass {
     constructor(format, levelsToWrite = ['debug', 'info', 'warn', 'error'], write = false, file, callerReplacements = {}, requirements = { debug: true, info: true, warn: true, error: true }) {
